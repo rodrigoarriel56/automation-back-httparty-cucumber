@@ -3,28 +3,26 @@
 1- Passo de um clone no projeto
 
 ```
-git clone https://github.com/brunobatista25/test_api_httparty_cucumber.git
+git clone git@github.com:rodrigoarriel56/automacao-test-api-httparty-cucumber.git
 ```
 
-2- Passo de entre na pasta do projeto
+2- Passo de entrar na pasta do projeto
 
 ```
 cd test_api_httparty_cucumber/tests
 ```
 
-3- Passo instale as dependências
+3- Passo de instalação das dependências do projeto
 
 ```
 bundle install
 ```
+ou
+```
+gem install bundler 
+```
 
-4- Passo Acesse esse link para saber mais sobre como configurar a api:
-
-
-https://github.com/thiagomarquessp/httpartyforall/blob/master/Fake_api.md
-
-
-5- Passo rode o projeto:
+4- Passo rode o projeto:
 
 ```
 cucumber
@@ -35,3 +33,4 @@ ou
 ```
 bundle exec cucumber
 ```
+5 - Verificar dentro da past Result os resultados dos testes
