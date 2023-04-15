@@ -1,0 +1,122 @@
+[
+  {
+    "id": "validar-busca-por-informações",
+    "uri": "features/specs/buscar_get.feature",
+    "keyword": "Funcionalidade",
+    "name": "Validar busca por informações",
+    "description": "Eu, como analista de automação\nDesejo apresentar um resultado de busca em um EndPoint\nPara apresentar para usuários.",
+    "line": 3,
+    "tags": [
+      {
+        "name": "@get",
+        "line": 2
+      }
+    ],
+    "elements": [
+      {
+        "id": "validar-busca-por-informações;automatizando-get",
+        "keyword": "Cenario",
+        "name": "Automatizando GET",
+        "description": "",
+        "line": 10,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que eu faça um GET no endpoint clientes",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/verbo_get.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1941657709
+            }
+          },
+          {
+            "keyword": "Entao ",
+            "name": "o retorno dele será todos os clientes cadastrados",
+            "line": 13,
+            "match": {
+              "location": "features/step_definitions/verbo_get.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 59744254
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@get",
+            "line": 2
+          },
+          {
+            "name": "@executa_get",
+            "line": 9
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "validar-busca-por-informações",
+    "uri": "features/specs/buscar_typeOfEstablishment.feature",
+    "keyword": "Funcionalidade",
+    "name": "Validar busca por informações",
+    "description": "Eu, como analista de automação\nDesejo apresentar um resultado de busca em um EndPoint\nPara apresentar para usuários.",
+    "line": 3,
+    "tags": [
+      {
+        "name": "@get",
+        "line": 2
+      }
+    ],
+    "elements": [
+      {
+        "id": "validar-busca-por-informações;automatizando-get",
+        "keyword": "Cenario",
+        "name": "Automatizando GET",
+        "description": "",
+        "line": 10,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que eu faca um GET no endpoint clientes",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/verbo_typeOfEstablishment.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 680046908
+            }
+          },
+          {
+            "keyword": "Entao ",
+            "name": "retorno dela devera ser apenas linha typeOfEstablishment",
+            "line": 13,
+            "match": {
+              "location": "features/step_definitions/verbo_typeOfEstablishment.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16821112
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@get",
+            "line": 2
+          },
+          {
+            "name": "@executa_get",
+            "line": 9
+          }
+        ]
+      }
+    ]
+  }
+]
