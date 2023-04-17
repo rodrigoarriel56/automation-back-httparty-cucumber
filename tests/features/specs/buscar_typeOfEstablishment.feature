@@ -1,13 +1,13 @@
 #language: pt
 @get
-Funcionalidade: Validar busca por informações
+Funcionalidade: Validar busca por informacoes do campo typeOfEstablishment
 
-Eu, como analista de automação
-Desejo apresentar um resultado de busca em um EndPoint
-Para apresentar para usuários.
+Eu, como analista de automacao
+Desejo apresentar um resultado de busca do campo typeOfEstablishment
+Para apresentar para usuarios.
 
 @executa_get
-Cenario: Automatizando GET
+Cenario: Validar apresentacao de busca de campo typeOfEstablishment
 
   Dado que eu faca um GET no endpoint clientes
   Entao retorno dela devera ser apenas linha typeOfEstablishment

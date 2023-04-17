@@ -1,3 +1,10 @@
+=begin
+  Author: Rodrigo Arriel
+  Versão: v-1.0.0
+  Projeto: Automação de API com Ruby e HTTParty
+  Classe: Classe de step de testes    
+=end
+
 Dado('que eu faça um GET no endpoint clientes') do
   @get_clientes = RegisterService.get '/'
 end
