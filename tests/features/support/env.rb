@@ -1,10 +1,18 @@
+=begin
+  Author: Rodrigo Arriel
+  Versão: v-1.0.0
+  Projeto: Automação de API com Ruby e HTTParty
+  Classe: Classe de chamadas de funcionalidade utilizadas no projeto    
+=end
+
+
 require 'rspec'
 require 'cucumber'
 require 'httparty'
 require 'httparty/request'
 require 'httparty/response/headers'
-require 'faker'
-require 'cpf_faker'
+#require 'faker'
+#require 'cpf_faker'
 
 ENVIRONMENT = ENV['ENVIRONMENT']
 

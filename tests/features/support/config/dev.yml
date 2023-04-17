@@ -1,5 +1,7 @@
-#Classe de chamada de EndPoint
+#  Author: Rodrigo Arriel
+#  Versão: v-1.0.0
+#  Projeto: Automação de API com Ruby e HTTParty
+#  Classe: Classe de configuração DA CHAMADA DA url do EndPoint    
 
-#url_default: http://localhost:3000/clientes
 
 url_default: https://portal.vr.com.br/api-web/comum/enumerations/VRPAT

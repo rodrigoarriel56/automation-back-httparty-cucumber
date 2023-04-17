@@ -1,10 +1,10 @@
 [
   {
-    "id": "validar-busca-por-informações",
+    "id": "validar-busca-por-informacoes-de-endpopint-de-consulta",
     "uri": "features/specs/buscar_get.feature",
     "keyword": "Funcionalidade",
-    "name": "Validar busca por informações",
-    "description": "Eu, como analista de automação\nDesejo apresentar um resultado de busca em um EndPoint\nPara apresentar para usuários.",
+    "name": "Validar busca por informacoes de EndPopint de consulta",
+    "description": "Eu, como analista de automacao\nDesejo apresentar um resultado de busca em um EndPoint\nPara apresentar para usuarios.",
     "line": 3,
     "tags": [
       {
@@ -14,9 +14,9 @@
     ],
     "elements": [
       {
-        "id": "validar-busca-por-informações;automatizando-get",
+        "id": "validar-busca-por-informacoes-de-endpopint-de-consulta;validacao-de-busca-de-dados-em-endpoint-de-consulta",
         "keyword": "Cenario",
-        "name": "Automatizando GET",
+        "name": "Validacao de busca de dados em EndPoint de consulta",
         "description": "",
         "line": 10,
         "type": "scenario",
@@ -26,11 +26,11 @@
             "name": "que eu faça um GET no endpoint clientes",
             "line": 12,
             "match": {
-              "location": "features/step_definitions/verbo_get.rb:1"
+              "location": "features/step_definitions/verbo_get.rb:8"
             },
             "result": {
               "status": "passed",
-              "duration": 1941657709
+              "duration": 2309646168
             }
           },
           {
@@ -38,11 +38,11 @@
             "name": "o retorno dele será todos os clientes cadastrados",
             "line": 13,
             "match": {
-              "location": "features/step_definitions/verbo_get.rb:5"
+              "location": "features/step_definitions/verbo_get.rb:12"
             },
             "result": {
               "status": "passed",
-              "duration": 59744254
+              "duration": 29873006
             }
           }
         ],
@@ -60,11 +60,11 @@
     ]
   },
   {
-    "id": "validar-busca-por-informações",
+    "id": "validar-busca-por-informacoes-do-campo-typeofestablishment",
     "uri": "features/specs/buscar_typeOfEstablishment.feature",
     "keyword": "Funcionalidade",
-    "name": "Validar busca por informações",
-    "description": "Eu, como analista de automação\nDesejo apresentar um resultado de busca em um EndPoint\nPara apresentar para usuários.",
+    "name": "Validar busca por informacoes do campo typeOfEstablishment",
+    "description": "Eu, como analista de automacao\nDesejo apresentar um resultado de busca do campo typeOfEstablishment\nPara apresentar para usuarios.",
     "line": 3,
     "tags": [
       {
@@ -74,9 +74,9 @@
     ],
     "elements": [
       {
-        "id": "validar-busca-por-informações;automatizando-get",
+        "id": "validar-busca-por-informacoes-do-campo-typeofestablishment;validar-apresentacao-de-busca-de-campo-typeofestablishment",
         "keyword": "Cenario",
-        "name": "Automatizando GET",
+        "name": "Validar apresentacao de busca de campo typeOfEstablishment",
         "description": "",
         "line": 10,
         "type": "scenario",
@@ -86,11 +86,11 @@
             "name": "que eu faca um GET no endpoint clientes",
             "line": 12,
             "match": {
-              "location": "features/step_definitions/verbo_typeOfEstablishment.rb:1"
+              "location": "features/step_definitions/verbo_typeOfEstablishment.rb:8"
             },
             "result": {
               "status": "passed",
-              "duration": 680046908
+              "duration": 680584526
             }
           },
           {
@@ -98,11 +98,11 @@
             "name": "retorno dela devera ser apenas linha typeOfEstablishment",
             "line": 13,
             "match": {
-              "location": "features/step_definitions/verbo_typeOfEstablishment.rb:5"
+              "location": "features/step_definitions/verbo_typeOfEstablishment.rb:12"
             },
             "result": {
               "status": "passed",
-              "duration": 16821112
+              "duration": 15817134
             }
           }
         ],
