@@ -9,5 +9,5 @@ Para apresentar para usuarios.
 @executa_get
 Cenario: Validacao de busca de dados em EndPoint de consulta
 
-  Dado que eu faça um GET no endpoint clientes
-  Entao o retorno dele será todos os clientes cadastrados
+  Dado que estou no endpoint rv
+  Entao retorno devera ser apresentado com as informacoes solicitadas

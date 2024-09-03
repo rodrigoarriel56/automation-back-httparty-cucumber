@@ -1,6 +1,6 @@
 =begin
   Author: Rodrigo Arriel
-  Versão: v-1.0.0
+  Versão: v-1.0.1
   Projeto: Automação de API com Ruby e HTTParty
   Classe: Classe de configuração da funcionalidade do HTTParty    
 =end 
