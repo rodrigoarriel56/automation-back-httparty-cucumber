@@ -1,6 +1,9 @@
+# Descrição do projeto
+Este projeto tem a finalidade de validar API de consulta da VR beneficios.
+
 # test_api_httparty_cucumber
 
-1- Passo de um clone no projeto
+1- Passo para clonar o projeto
 
 ```
 git clone git@github.com:rodrigoarriel56/automacao-test-api-httparty-cucumber.git
