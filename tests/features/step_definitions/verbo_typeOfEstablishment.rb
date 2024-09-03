@@ -5,7 +5,7 @@
   Classe: Classe de execução de testes de API com busca por uma determinada TAG    
 =end
 
-Dado('que eu faca um GET no endpoint clientes') do
+Dado('que eu faca um GET no endpoint da vr') do
   @get_typeOfEstablishment = RegisterService.get '/'
 end
 
