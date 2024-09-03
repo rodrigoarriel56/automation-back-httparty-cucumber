@@ -1,15 +1,13 @@
 [![Badge ServeRest](https://img.shields.io/badge/API-ServeRest-green)](https://github.com/ServeRest/ServeRest/)
 
 # Descrição do projeto
-Este projeto tem a finalidade de validar API de consulta da VR beneficios.
-Projeto desenvolvido com as seguintes ferramentas:
-Ruby
-Cucumber
-Httparty
+- Este projeto tem a finalidade de validar API de consulta da VR beneficios.
+- Projeto desenvolvido com as seguintes ferramentas.
+--> Ruby
+--> Cucumber
+--> Httparty
 
-<img width="149" alt="image" src="https://github.com/user-attachments/assets/60f925b2-6b5c-4f9a-81b9-e879b9d09b59">
-
-# test_api_httparty_cucumber
+# <img width="806" alt="image" src="https://github.com/user-attachments/assets/2893872d-5bdb-4a2d-a3b4-0bce4da1d11c">
 
 1- Passo para clonar o projeto
 
@@ -33,7 +31,7 @@ ou
 gem install bundler 
 ```
 
-4- Passo rode o projeto:
+4- Passo para executar o projeto:
 
 ```
 cucumber
@@ -44,4 +42,3 @@ ou
 ```
 bundle exec cucumber
 ```
-5 - Verificar dentro da past Result os resultados dos testes
