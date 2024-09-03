@@ -1,3 +1,5 @@
+[![Badge ServeRest](https://img.shields.io/badge/API-ServeRest-green)](https://github.com/ServeRest/ServeRest/)
+
 # Descrição do projeto
 Este projeto tem a finalidade de validar API de consulta da VR beneficios.
 
