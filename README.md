@@ -2,6 +2,12 @@
 
 # Descrição do projeto
 Este projeto tem a finalidade de validar API de consulta da VR beneficios.
+Projeto desenvolvido com as seguintes ferramentas:
+Ruby
+Cucumber
+Httparty
+
+<img width="149" alt="image" src="https://github.com/user-attachments/assets/60f925b2-6b5c-4f9a-81b9-e879b9d09b59">
 
 # test_api_httparty_cucumber
 
